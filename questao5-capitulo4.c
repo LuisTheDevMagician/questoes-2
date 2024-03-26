@@ -16,6 +16,10 @@ int main(){
 	scanf("%f", &n2);
 	
 	printf("Escolha uma opcao de 1 a 4 \n");
+	printf("1 - Média entre os números digitados\n");
+	printf("2 - Diferença do maior pelo menor\n");
+	printf("3 - Produto entre os numeros digitados\n");
+	printf("4 - Divisão do primeiro pelo segundo\n");
 	scanf("%d", &opcao);
 	
 	
@@ -26,8 +30,10 @@ int main(){
 	printf("Diferenca do maior pelo menor: %.2f \n", resultado=n1-n2);
 	}else if(opcao==3){
 	printf("Produto entre os numeros digitados: %.2f \n", resultado=n1*n2);
-	}else if(opcao==4){
-	printf("Divis�o do primeiro pelo segundo: %.2f \n", resultado=n1/n2);
+	}else if(opcao==4 && n2!=0){
+	printf("Divisão do primeiro pelo segundo: %.2f \n", resultado=n1/n2);
+	}else{
+	    printf("Nao foi possivel realizar a operacao\n");
 	}
 }
 	if(n1<n2){
@@ -37,8 +43,10 @@ int main(){
 	printf("Diferenca do maior pelo menor: %.2f \n", resultado=n2-n1);
 	}else if(opcao==3){
 	printf("Produto entre os numeros digitados: %.2f \n", resultado=n1*n2);
-	}else if(opcao==4){
-	printf("Divis�o do primeiro pelo segundo: %.2f \n", resultado=n1/n2);
+	}else if(opcao==4 && n2!=0){
+	printf("Divisão do primeiro pelo segundo: %.2f \n", resultado=n1/n2);
+	}else{
+	    printf("Nao foi possivel realizar a operacao\n");
 	}
 }
 	

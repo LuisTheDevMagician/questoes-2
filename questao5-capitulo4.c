@@ -32,6 +32,8 @@ int main(){
 	printf("Produto entre os numeros digitados: %.2f \n", resultado=n1*n2);
 	}else if(opcao==4 && n2!=0){
 	printf("Divisão do primeiro pelo segundo: %.2f \n", resultado=n1/n2);
+	}else if(opcao<1 || opcao>4){
+		printf("Nenhuma das opcoes escolhida foi valida\n Escolha de 1 a 4\n");
 	}else{
 	    printf("Nao foi possivel realizar a operacao\n");
 	}
@@ -45,6 +47,8 @@ int main(){
 	printf("Produto entre os numeros digitados: %.2f \n", resultado=n1*n2);
 	}else if(opcao==4 && n2!=0){
 	printf("Divisão do primeiro pelo segundo: %.2f \n", resultado=n1/n2);
+	}else if(opcao<1 || opcao>4){
+		printf("Nenhuma das opcoes escolhida foi valida\n Escolha de 1 a 4\n");
 	}else{
 	    printf("Nao foi possivel realizar a operacao\n");
 	}
